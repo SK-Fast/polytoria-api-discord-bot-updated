@@ -32,7 +32,7 @@ async function StartReg() {
 
 		await rest.put(
 			Routes.applicationGuildCommands(clientId),
-			{ body: commands },
+			{ body: commands }, 
 		);
 
 		console.log('Successfully reloaded application (/) commands.');
