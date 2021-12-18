@@ -7,6 +7,6 @@ let CommandData = new SlashCommandBuilder()
 module.exports = {
     data: CommandData,
 	execute(client,interaction) {
-        interaction.reply({ content: "I'm online! :D", ephemeral: true })
+        interaction.reply({ content: `I'm online! :D (${Math.abs(Date.now() - interaction.createdTimestamp)}ms)`, ephemeral: true })
 	},
 };

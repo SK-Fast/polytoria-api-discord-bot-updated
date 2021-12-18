@@ -31,7 +31,7 @@ async function StartReg() {
 		console.log('Started refreshing application (/) commands.');
 
 		await rest.put(
-			Routes.applicationGuildCommands(clientId,'754231424487391302'),
+			Routes.applicationGuildCommands(clientId),
 			{ body: commands },
 		);
 
