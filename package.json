@@ -1,0 +1,31 @@
+{
+  "name": "polytoria-api-discord-bot-updated",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SK-Fast/polytoria-api-discord-bot-updated.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SK-Fast/polytoria-api-discord-bot-updated/issues"
+  },
+  "homepage": "https://github.com/SK-Fast/polytoria-api-discord-bot-updated#readme",
+  "dependencies": {
+    "@discordjs/rest": "0.1.0-canary.0",
+    "axios": "^0.24.0",
+    "child_process": "^1.0.2",
+    "discord-api-types": "^0.25.2",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "image-palette": "^2.1.0",
+    "image-pixels": "^2.2.2",
+    "timestamp-conv": "^2.2.0"
+  }
+}
