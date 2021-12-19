@@ -2,8 +2,6 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const axios = require('axios').default;
 const { MessageEmbed, MessageButton, MessageActionRow } = require('discord.js');
 const TimeConverter = require('timestamp-conv');
-const palette = require('image-palette')
-const pixels = require('image-pixels')
 
 let CommandData = new SlashCommandBuilder()
 .setName('game')
